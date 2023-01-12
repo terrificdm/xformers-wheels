@@ -2,6 +2,8 @@
 
 ### Build xformers wheels for your enviroment
 #### Steps as blow:
+> Make sure you have NV driver inslled  
+
 `git clone https://github.com/facebookresearch/xformers.git`  
 `cd xformers`  
 `git submodule update --init --recursive`  
