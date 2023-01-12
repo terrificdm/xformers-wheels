@@ -13,7 +13,7 @@
 `pip install -r requirements.txt`  
 `pip install wheel`  
 `python setup.py build`  
-`python setup.py bdist_wheel  
-``ls ./dist/`  
+`python setup.py bdist_wheel`  
+`ls ./dist/`  
 
 > Make sure you have NV driver installed  
