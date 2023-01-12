@@ -1,8 +1,7 @@
 # xformers-wheels
 
 ### Build xformers wheels for your enviroment
-#### Steps as blow:
-> Make sure you have NV driver inslled  
+#### Steps as blow:  
 
 `git clone https://github.com/facebookresearch/xformers.git`  
 `cd xformers`  
@@ -16,3 +15,5 @@
 `python setup.py build`  
 `python setup.py bdist_wheel  
 ``ls ./dist/`  
+
+> Make sure you have NV driver installed  
