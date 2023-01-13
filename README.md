@@ -8,7 +8,8 @@
 `git submodule update --init --recursive`  
 `python -m venv venv`  
 `source ./venv/bin/activate`  
-`pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 # change to your env`  
+`# change to your env
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117`  
 `pip install -r requirements.txt`  
 `pip install wheel`  
 `pip install ninja`  
