@@ -1,14 +1,15 @@
 # xformers-wheels
 
-### Build xformers wheels for your enviroment
-#### Steps as blow:  
+### Borrowed from [official facebook xformers github actions](https://github.com/facebookresearch/xformers/actions/workflows/wheels.yml)
+
+### You can also build your own xformers wheels refer blow steps:  
 
 `git clone https://github.com/facebookresearch/xformers.git`  
 `cd xformers`  
 `git submodule update --init --recursive`  
 `python -m venv venv`  
 `source ./venv/bin/activate`  
-Change to your env as below    
+* Change to your env as below    
 `pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117`  
 `pip install -r requirements.txt`  
 `pip install wheel`  
@@ -17,4 +18,4 @@ Change to your env as below
 `python setup.py bdist_wheel`  
 `ls ./dist/`  
 
-> Make sure you have NV driver installed  
+> Make sure you have Nvidia driver installed  
