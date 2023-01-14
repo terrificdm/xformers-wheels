@@ -2,7 +2,7 @@
 
 ### Borrowed from [official facebook xformers github actions](https://github.com/facebookresearch/xformers/actions/workflows/wheels.yml)
 
-### You can also build your own xformers wheels refer blow steps:  
+### You can also build your own xformers wheels refer below steps:  
 
 `git clone https://github.com/facebookresearch/xformers.git`  
 `cd xformers`  
