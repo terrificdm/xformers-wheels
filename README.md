@@ -1,8 +1,9 @@
 # xformers-wheels
 
-### Borrowed from [official facebook xformers github actions](https://github.com/facebookresearch/xformers/actions/workflows/wheels.yml)
+Borrowed from [official facebook xformers github actions](https://github.com/facebookresearch/xformers/actions/workflows/wheels.yml)  
+Download from "Releases" page from this repo  
 
-### You can also build your own xformers wheels refer below steps:  
+You can also build your own xformers wheels refer below steps:  
 
 `git clone https://github.com/facebookresearch/xformers.git`  
 `cd xformers`  
